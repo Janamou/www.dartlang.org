@@ -39,18 +39,17 @@ and
 [7c8b9](https://github.com/Polymer/ShadowDOM/commit/7c8b9084a5b192a48ec055f1bd32936e24257a1d).
 
 The platform.js script has been stripped down, and is no longer required in
-Chrome or Dartium. You can now remove this from your projects for development,
-and it will be injected when running pub build or pub serve.
+Chrome or Dartium. You can now remove this from your projects for development;
+it will be injected when running pub build or pub serve.
 
 If you would like the option to not inject platform.js at all in the built
-output (if you are deploying to chrome exclusively), please star this
-bug http://dartbug.com/20865.
+output (if you are deploying to chrome exclusively), please star http://dartbug.com/20865.
 
 ### Core and paper elements
 
 Together with this release, we updated `core_elements` to 0.2.1, and
 `paper_elements` to 0.2.0. This brings the elements packages up to date with
-the changes in the Javascript version 0.4.0. Two new elements were added
+the changes in the JavaScript version 0.4.0. Two new elements were added
 (`paper_dropdown` and `core_popup_menu`), and one was removed
 (`paper_menu_button_overlay`).
 
